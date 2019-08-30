@@ -3,6 +3,32 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <head>
+	
+	
+	<script>
+if (document.addEventListener) {
+    document.addEventListener("contextmenu", function(e) {
+        e.preventDefault();
+        return false;
+    });
+} else { //Versões antigas do IE
+    document.attachEvent("oncontextmenu", function(e) {
+        e = e || window.event;
+        e.returnValue = false;
+        return false;
+    });
+}
+</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 <title>Python - Complementos retirados da Internet</title>
 <style>
 body {
